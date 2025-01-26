@@ -1,0 +1,9 @@
+# гайд по установке 
+conda create --name faceNext python=3.8
+conda activate faceNext
+conda install pytorch torchvision cudatoolkit -c pytorch
+pip install redner-gpu
+conda install -c conda-forge opencv
+conda install -c 1adrianb face_alignment 
+conda install -c anaconda h5py
+pip3 install mediapipe==0.10.5
